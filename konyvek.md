@@ -1,6 +1,6 @@
 # Kedvenc Könyveim
 | Cím | Szerző | Év |
-| ----------- | ----------- |
+| :--- | :----: | ---: |
 | Pál utcai fiúk | Molnár Ferenc | 1977 |
 | Egri csillagok | Gárdonyi Géza | 1901 |
 ## Pál utcai fiúk
