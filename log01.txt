@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20250916115459
-Username: GANZISKOLA\csukardi
-RunAs User: GANZISKOLA\csukardi
+Start time: 20250916120910
+Username: GANZISKOLA\sziszojev
+RunAs User: GANZISKOLA\sziszojev
 Configuration Name: 
-Machine: A022-T (Microsoft Windows NT 10.0.26100.0)
+Machine: A022-13 (Microsoft Windows NT 10.0.26100.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
-Process ID: 7000
+Process ID: 13280
 PSVersion: 5.1.26100.4768
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4768
@@ -17,7 +17,7 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is .\log01.txt
-]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5ccsukardiPS C:\Users\csukardi> ]633;B
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csziszojev\x5cDesktop\x5cwebprogramozasPS C:\Users\sziszojev\Desktop\webprogramozas> ]633;B
 PS>cd z://webprogramozas
 ]633;D;0]633;A]633;P;Cwd=Z:\x5cwebprogramozasPS Z:\webprogramozas> ]633;B
 PS>ls
@@ -28,16 +28,34 @@ PS>ls
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
-d-----     2025. 09. 16.      9:18                dp1
-d-----     2025. 09. 12.     15:07                halado
+d-----     2025. 09. 16.     12:06                halado
 
 
 ]633;D;0]633;A]633;P;Cwd=Z:\x5cwebprogramozasPS Z:\webprogramozas> ]633;B
-PS>git clone https://github.com/GanzSchool/dp1.git
+PS>clone https://github.com/sziszojevalexanderpavlovics-blip/dp1.git
+clone : The term 'clone' is not recognized as the name of a cmdlet, function, script file, or operable program. Check th
+e spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ clone https://github.com/sziszojevalexanderpavlovics-blip/dp1.git
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (clone:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+clone : The term 'clone' is not recognized as the name of a cmdlet, functio
+n, script file, or operable program. Check the spelling of the name, or if
+a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ clone https://github.com/sziszojevalexanderpavlovics-blip/dp1.git
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (clone:String) [], CommandNo
+   tFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=Z:\x5cwebprogramozasPS Z:\webprogramozas> ]633;B
+PS>git clone https://github.com/sziszojevalexanderpavlovics-blip/dp1.git
 
 ]633;D;0]633;A]633;P;Cwd=Z:\x5cwebprogramozasPS Z:\webprogramozas> ]633;B
 PS>Stop-Transcript
 **********************
 Windows PowerShell transcript end
-End time: 20250916115809
+End time: 20250916121115
 **********************
